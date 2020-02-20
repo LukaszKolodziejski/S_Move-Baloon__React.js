@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.balloon-animation {
+  position: relative;
+  background-image: url("assets/background.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.flying-cloud {
+  position: absolute;
+  width: 20%;
+}
+
+.flying-balloon {
+  position: absolute;
+  width: 15%;
+  left: 42%;
+  top: 20%;
+}
+
+.flying-cloud:nth-child(1) {
+  left: 15%;
+  top: 15%;
+  z-index: 1;
+}
+.flying-cloud:nth-child(2) {
+  left: 17%;
+  top: 12%;
+}
+.flying-cloud:nth-child(3) {
+  left: 19%;
+  top: 22%;
+}
+.flying-cloud:nth-child(4) {
+  left: 21%;
+  top: 24%;
+}
+.flying-cloud:nth-child(5) {
+  left: 23%;
+  top: 20%;
+}
+.flying-cloud:nth-child(6) {
+  left: 25%;
+  top: 26%;
+}
